@@ -1,0 +1,40 @@
+.Button {
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 1.1em;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.1s;
+}
+
+.ButtonLarge {
+  padding: 10px 20px;
+}
+
+.Button:hover {
+  filter: contrast(1.5) drop-shadow(0 2px 1px black);
+}
+
+.Button:active {
+  filter: none;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(186, 151, 219, 0),
+    rgba(0, 0, 0, 0.472)
+  );
+}
+
+.PrimaryButton {
+  background-color: var(--colorAccent);
+  color: var(--colorDarkText);
+}
+
+.SecondaryButton {
+  background-color: aqua;
+  color: var(--colorDarkText);
+}
+
+.DangerButton {
+  background-color: red;
+  color: var(--colorDarkText);
+}

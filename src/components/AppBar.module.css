@@ -1,0 +1,12 @@
+.AppBar {
+  width: 100%;
+  background-color: var(--colorAccent);
+  padding: 15px 18px;
+  box-shadow: 0 1px 3px rgb(19, 19, 19);
+}
+
+.Title {
+  color: var(--colorDarkText);
+  font-weight: 400;
+  font-size: 123%;
+}
